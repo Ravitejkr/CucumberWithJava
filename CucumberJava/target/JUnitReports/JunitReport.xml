@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="11.208" tests="2" skipped="0" failures="1" errors="0">
+<testcase classname="Check login functionality" name="" time="11.132">
+<system-out><![CDATA[
+Given user is on login page of the product..................................passed
+When user enter valid username and password.................................passed
+And clicks on the login button..............................................passed
+Then home page loads........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check login functionality" name="" time="0.014">
+<failure type="java.lang.NullPointerException" message="Cannot invoke &quot;org.openqa.selenium.WebDriver.navigate()&quot; because &quot;this.driver&quot; is null">
+<![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.navigate()" because "this.driver" is null
+	at StepsForHooks.HooksDemoSteps.user_is_on_login_page_of_the_product(HooksDemoSteps.java:57)
+	at ✽.user is on login page of the product(file:///C:/Users/Dell/eclipse-workspace/CucumberJava/src/test/resources/DemoForHooks/HooksDemo.feature:11)
+]]>
+</failure>
+<system-out><![CDATA[
+Given user is on login page of the product..................................failed
+When user enter valid username and password.................................skipped
+And clicks on the login button..............................................skipped
+Then home page loads........................................................skipped
+]]></system-out>
+</testcase>
+</testsuite>

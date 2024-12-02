@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: Runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.849 s <<< FAILURE! -- in Runner.TestRunner
+demo login functionality.check login with inavlid credentials -- Time elapsed: 0.015 s <<< ERROR!
+java.lang.ArithmeticException: / by zero
+	at Steps.loginSteps.user_calculates(loginSteps.java:8)
+	at ✽.user calculates 1/0(file:///C:/Users/Dell/eclipse-workspace/CucumberJava_CommandLineExecution/src/test/resources/Features/demo.feature:11)
+

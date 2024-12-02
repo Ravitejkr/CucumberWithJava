@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: StepDefinitions.TestRunner_ForHooks
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 11.25 s <<< FAILURE! -- in StepDefinitions.TestRunner_ForHooks
+Check login functionality. #2 -- Time elapsed: 0.022 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.navigate()" because "this.driver" is null
+	at StepsForHooks.HooksDemoSteps.user_is_on_login_page_of_the_product(HooksDemoSteps.java:57)
+	at ✽.user is on login page of the product(file:///C:/Users/Dell/eclipse-workspace/CucumberJava/src/test/resources/DemoForHooks/HooksDemo.feature:11)
+
+Check login functionality. #2 -- Time elapsed: 0.023 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null
+	at StepsForHooks.HooksDemoSteps.teardown(HooksDemoSteps.java:36)
+
